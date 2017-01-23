@@ -1,0 +1,8 @@
+ControlFocus("File Upload","","Edit")
+Sleep(2000)
+send("..\resources\Student_Photo.png")
+Sleep(2000)
+Send("{TAB 2}")
+Sleep(2000)
+Send("{ENTER}")
+Sleep(2000)
