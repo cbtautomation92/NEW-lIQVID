@@ -4,6 +4,8 @@
     <listeners>
    	 <listener class-name="com.liqvid.library.TestngListener" />
      <listener class-name="com.kirwa.nxgreport.listners.NXGTestListner" ></listener>
+        <listener class-name="com.liqvid.library.RetryListener"/>
+     
      </listeners>
    <test name="Regression" preserve-order="true">
     <classes>
